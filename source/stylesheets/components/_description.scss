@@ -1,0 +1,31 @@
+.society-wrapper {
+  margin-bottom: 25px;
+  // background-color: f4f4f4;
+}
+
+.container-society {
+  display: flex;
+  justify-content: space-around;
+}
+
+#entrepot {
+  margin-right: 40px;
+  border-radius: 5px ;
+}
+
+.description-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.society-title {
+  margin-bottom: 40px;
+  span {
+    border-bottom: 2px solid;
+  }
+}
+
+.description {
+  padding: 0px 60px;
+}
