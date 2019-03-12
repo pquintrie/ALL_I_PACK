@@ -1,13 +1,34 @@
 .contact-title {
   margin-bottom: 40px;
+  color: #e84e4b;
   span {
-    border-bottom: 2px solid;
+  background-color: white;
+  padding: 5px;
   }
 }
 
-.contact-container {
+
+
+.contact-wrapper {
+  background-color:#e84e4b ;
+}
+
+.contact-content p {
+  color: #FFFFFF;
+}
+
+.left {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-itms: center;
+  align-items: center;
+  width: 35%;
+}
+
+.right {
+  width: 65%;
+}
+
+.logo2 {
+  width: 50%;
 }
