@@ -7,7 +7,6 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title %></title>
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
     <%= favicon_tag 'images/favicon.png' %>
@@ -15,10 +14,11 @@
   <body>
     <%= partial "layouts/navbar" %>
     <%= partial "layouts/banner" %>
-    <%#= partial "layouts/description" %>
-    <%#= partial "layouts/card" %>
-    <%#= partial "layouts/service" %>
-    <%#= partial "layouts/contact" %>
-    <%#= yield %>
+    <%= partial "layouts/description" %>
+    <%= partial "layouts/card" %>
+    <%= partial "layouts/service" %>
+    <%= partial "layouts/contact2" %>
+    <%= yield %>
+    <%= partial "layouts/footer" %>
   </body>
 </html>
