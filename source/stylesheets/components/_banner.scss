@@ -23,3 +23,10 @@
   //position: absolute;
   //left: -15px;
 }
+
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  .banner-content {
+    width: 100%;
+  }
+}

@@ -1,9 +1,9 @@
 .service-row {
-  height: 219px;
+  min-height: 219px;
   .service-text {
     display: flex;
     align-items: center;
-    height: 100%;
+    min-height: 219px;
     background-color:#33313b;
 
     h2 {
